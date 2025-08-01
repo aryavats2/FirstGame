@@ -1,5 +1,5 @@
 var randomNumber1 = Math.floor(Math.random() * 6) + 1; // 1-6
-let cat = "images/dice" + randomNumber1 + ".png";
+let cat = "dice" + randomNumber1 + ".png";
 
 let img = document.querySelector(".img1");
 console.log("Setting image to: " + cat);
@@ -7,7 +7,7 @@ alert("Guess the winner 🔥🔥🔥");
 img.setAttribute("src", cat);
 
 var randomNumber2 = Math.floor(Math.random() * 6) + 1; // 1-6
-let bat = "images/dice" + randomNumber2 + ".png";
+let bat = "dice" + randomNumber2 + ".png";
 
 let image = document.querySelector(".img2");
 image.setAttribute("src", bat);
