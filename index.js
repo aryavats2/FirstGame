@@ -1,13 +1,13 @@
-var randomNumber1 = Math.floor(Math.random() * 6) + 1; // 1-6
-let cat = "dice" + randomNumber1 + ".png";
+var randomNumber1 = Math.floor(Math.random() * 6) + 1;
+let cat = "dice" + randomNumber1 + ".png"; // ✅ Removed 'images/'
 
 let img = document.querySelector(".img1");
 console.log("Setting image to: " + cat);
 alert("Guess the winner 🔥🔥🔥");
 img.setAttribute("src", cat);
 
-var randomNumber2 = Math.floor(Math.random() * 6) + 1; // 1-6
-let bat = "dice" + randomNumber2 + ".png";
+var randomNumber2 = Math.floor(Math.random() * 6) + 1;
+let bat = "dice" + randomNumber2 + ".png"; // ✅ Removed 'images/'
 
 let image = document.querySelector(".img2");
 image.setAttribute("src", bat);
